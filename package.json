@@ -1,0 +1,28 @@
+{
+  "name": "CleanTweets",
+  "version": "0.0.0",
+  "description": "A clean and minimalistic implementation for twitter",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShivrajRath/cleantweets.git"
+  },
+  "keywords": [
+    "twitter",
+    "minimalistic"
+  ],
+  "author": "ShivrajRath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivrajRath/cleantweets/issues"
+  },
+  "homepage": "https://github.com/ShivrajRath/cleantweets"
+}
