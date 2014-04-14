@@ -2,6 +2,7 @@
  * Express Module
  */
 var express = require('express');
+var path = require('path');
 
 var app = express();
 
@@ -9,8 +10,10 @@ var app = express();
  * Load the index.html file on initial load
  */
 
-app.get('/', function(req,res){
- res.sendfile(__dirname + '/public/index.html');
-}); 
+app.use(express.static(__dirname + '/public'));
 
-app.listen(3000);
+app.get('/', function(req, res){
+  res.sendfile('index.html');
+});
+
+app.listen(8888);
